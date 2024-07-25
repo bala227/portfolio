@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0c852c9f.css",
+    "main.js": "/portfolio/static/js/main.3755588e.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/photo.jpeg": "/portfolio/static/media/photo.58873e1b7fdf1c1af352.jpeg",
+    "static/media/Balasubramanian Resume.pdf": "/portfolio/static/media/Balasubramanian Resume.f1bbceab06bf10b54a40.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.0c852c9f.css.map": "/portfolio/static/css/main.0c852c9f.css.map",
+    "main.3755588e.js.map": "/portfolio/static/js/main.3755588e.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c852c9f.css",
+    "static/js/main.3755588e.js"
+  ]
+}
