@@ -1,0 +1,46 @@
+.education{
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+#third{
+    margin-top: 100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-bottom: 200px;
+  }
+  #third h2,h1{
+    color:blueviolet;
+  }
+  #edbox p{
+    color:white;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  #edbox{
+    position:relative;
+    border-left:3px solid white;
+    padding-left:70px;
+    margin-top:50px;
+  }
+  #edbox:hover{
+    cursor:pointer;
+  }
+  #edu{
+    margin-top:-10px;
+    margin-bottom:60px;
+  }
+  #circle{
+    border:2px solid white;
+    background-color:black;
+    border-radius:100px;
+    height:15px;
+    width:15px;
+    position: absolute;
+    left: -10px;
+  }
+  #edu:hover #circle{
+      background-color:blueviolet;
+  }

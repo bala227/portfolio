@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.title{
+    font-size: 1.8rem;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+}
+.navitems{  
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+}
+.items a{
+    margin-right: 100px;
+}
+.navitems a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.navitems a:active,
+.navitems a:hover
+{
+    border-bottom: 3px solid blueviolet;
+}
+.navitems h1,a:hover{
+    cursor: pointer;
+    color:blueviolet;
+}
+.homebody{
+    position: relative;
+}
+.first{
+    position: absolute;
+    top: 100px;
+    left: 40%;
+}
+.first p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.red{
+    color: blueviolet;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.about{
+    width: 90%;
+    margin-top: 10px;
+}
+.bala{
+    width: 320px;
+    height: 300px;
+    border-radius: 100%;
+    position: absolute;
+    left: -50%;
+    top: -5%;
+}
+.about1{
+    font-size: 2.2rem;
+}
+.icons{
+    margin-top: 60px;
+}
+.button{
+    width: 130px;
+    color: white;
+    border: 3px solid blueviolet;
+    text-align: center;
+    padding: 12px;
+    margin-top: 17px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;  
+}
+#resume{
+    color: white;
+    background-color: blueviolet;
+    width: 130px;
+    border: 3px solid blueviolet;
+    text-align: center;
+    padding: 12px;
+    margin-top: 17px;
+}
+#resume:hover{
+    cursor: pointer;
+    background-color: black;
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+.skills{
+    color: blueviolet;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 80px; 
+}
+a{
+    text-decoration: none;
+}
+.skill{
+    border: 3px solid blueviolet;
+    padding: 50px;
+    width:400px;
+    text-align: center; 
+    margin-bottom: 100px; 
+    border-radius: 20px;
+}
+.skill:hover{
+    cursor: pointer;
+    box-shadow: 0 0 50px 15px blueviolet;
+}
+.second{
+    margin-top: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.exp{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.skillbox{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin-top: 30px;
+}
+.ui{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
