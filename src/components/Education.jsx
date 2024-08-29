@@ -9,7 +9,7 @@ export default function Education() {
         <h1 className='education'>Education</h1>
         <div id="edbox">
             <div id="edu">
-                <h1 id="circle"></h1>
+                <p id="circle"></p>
                 <section id="b">
                     <h2>Bachelor of Engineering</h2>
                     <p>Computer Science and Engineering (Artificial Intelligence and Machine Learning)</p>

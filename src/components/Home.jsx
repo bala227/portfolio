@@ -33,10 +33,10 @@ export default function Home() {
                 <h3 className='about1'>I'm a <span className='red'>FullStack Developer</span></h3>
                 <p className='about'>I am a hardworking and diligent individiual, currently pursuing B.E. CSE AIML. I have considerable experience in the Frontend development. I am seeking a challenging role in web development to kickstart my career in this field.</p>
                 <div className='icons'>
-                    <a href="https://www.instagram.com/itz_.bala_/" target="_blank"><InstagramIcon style={{fontSize:50,color:"#fd1d1d",marginRight:13,cursor:"pointer"}}/></a>
-                    <a href="https://www.linkedin.com/in/bala-subramanian-s-3a95a8261/" target="_blank"><LinkedInIcon style={{fontSize:50,color:"#0A66C2",marginRight:13,cursor:"pointer"}}/></a>
-                    <a href="https://github.com/bala227" target="_blank"><GitHubIcon style={{fontSize:50,marginRight:13,cursor:"pointer",color:"white"}}/></a>
-                    <a href="https://x.com/K_arthi7777" target="_blank"><XIcon style={{fontSize:50,cursor:"pointer",color:"white"}}/></a>
+                    <a href="https://www.instagram.com/itz_.bala_/" rel="noopener noreferrer"><InstagramIcon style={{fontSize:50,color:"#fd1d1d",marginRight:13,cursor:"pointer"}}/></a>
+                    <a href="https://www.linkedin.com/in/bala-subramanian-s-3a95a8261/" rel="noopener noreferrer"><LinkedInIcon style={{fontSize:50,color:"#0A66C2",marginRight:13,cursor:"pointer"}}/></a>
+                    <a href="https://github.com/bala227" rel="noopener noreferrer"><GitHubIcon style={{fontSize:50,marginRight:13,cursor:"pointer",color:"white"}}/></a>
+                    <a href="https://x.com/K_arthi7777" rel="noopener noreferrer"><XIcon style={{fontSize:50,cursor:"pointer",color:"white"}}/></a>
                 </div>
                 <div className='buttons'>
                   <a href="mailto: balasubramanian.s2000@gmail.com"><p className='button'>Hire Me</p></a>
