@@ -17,7 +17,7 @@ export default function Home() {
     const pdfUrl = balaresume;
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Bala Subramanian Resume"; 
+    link.download = "Balasubramanian Resume"; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
