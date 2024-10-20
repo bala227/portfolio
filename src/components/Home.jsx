@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/Home.css'
-import bala from '../images/photo.jpeg'
+import skull from '../images/skull.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -29,7 +29,7 @@ export default function Home() {
         <Navbar />
         <div className='homebody' id='Home'>
             <div className='first' id='first'>
-                <img src={bala} alt="" className='bala'/>
+                <img src={skull} alt="" className='bala'/>
                 <h3 className='about1'>Hi, It's <span className='red'>Bala Subramanian</span></h3>
                 <h3 className='about1'>I'm a <span className='red'>FullStack Developer</span></h3>
                 <p className='about'>I am a hardworking and diligent individiual, currently pursuing B.E. CSE AIML. I have considerable experience in the Frontend development. I am seeking a challenging role in web development to kickstart my career in this field.</p>
