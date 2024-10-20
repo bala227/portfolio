@@ -10,6 +10,7 @@ import balaresume from '../images/Balasubramanian Resume.pdf'
 import Navbar from './Navbar';
 import Education from './Education';
 import Footer from './Footer';
+import Projects from './Projects';
 
 export default function Home() {
 
@@ -97,11 +98,17 @@ export default function Home() {
                     <h3>Git</h3>
                     <span>Beginner</span>
                   </article>
+                  <article className='ui'>
+                    <VerifiedIcon />
+                    <h3>PHP</h3>
+                    <span>Beginner</span>
+                  </article>
                 </div>
               </div>
             </div>
         </div>
         <Education />
+        <Projects />
         <Footer />
     </div>
   )

@@ -1,0 +1,62 @@
+/* Carousel.css */
+.carousel-container {
+  border: 3px solid blueviolet;
+  padding: 50px;
+  border-radius: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Adjust as needed */
+  max-width: 1200px; /* Optional: control max width */
+}
+.carousel-container:hover{
+  box-shadow: 0 0 50px 15px blueviolet;
+}
+.carousel-slides {
+  display: flex;
+  transition: transform 0.7s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%; /* One image per slide */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cimg {
+  width: auto;
+  height: 550px; /* Set height manually */
+  object-fit: contain; /* Maintain aspect ratio */
+  border-radius: 20px; /* Optional: round image corners */
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 30px;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+.carousel-text {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+  color: white;
+}
