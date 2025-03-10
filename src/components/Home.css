@@ -101,12 +101,9 @@ body{
 }
 #resume:hover{
     cursor: pointer;
-    background-color: black;
-
 }
 .button:hover{
     cursor: pointer;
-    background-color: blueviolet;
     color: white;
 }
 .skills{

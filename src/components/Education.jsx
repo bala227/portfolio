@@ -11,10 +11,20 @@ export default function Education() {
             <div id="edu">
                 <p id="circle"></p>
                 <section id="b">
+                    <h2>Higher Secondary Education</h2>
+                    <p>2020 - 2022</p>
+                    <p>Rose Mary Matric Hr. Sec. School</p>
+                    <p>Percentage : <span style={{fontSize:23,fontWeight:'bold'}}>96.1 / 100</span></p>
+                </section>
+            </div>
+            <div id="edu">
+                <p id="circle"></p>
+                <section id="b">
                     <h2>Bachelor of Engineering</h2>
                     <p>Computer Science and Engineering (Artificial Intelligence and Machine Learning)</p>
                     <p>2022 - 2026</p>
-                    <p>Grade : 8.44</p>
+                    <p>PSG College of Technology</p>
+                    <p>Grade : <span style={{fontSize:23,fontWeight:'bold'}}>8.41 / 10</span></p>
                 </section>
             </div>
         </div>

@@ -11,6 +11,7 @@ import Navbar from './Navbar';
 import Education from './Education';
 import Footer from './Footer';
 import Projects from './Projects';
+import { motion } from "framer-motion";
 
 export default function Home() {
 
@@ -39,9 +40,28 @@ export default function Home() {
                     <a href="https://github.com/bala227" rel="noopener noreferrer"><GitHubIcon style={{fontSize:50,marginRight:13,cursor:"pointer",color:"white"}}/></a>
                     <a href="https://x.com/K_arthi7777" rel="noopener noreferrer"><XIcon style={{fontSize:50,cursor:"pointer",color:"white"}}/></a>
                 </div>
-                <div className='buttons'>
-                  <a href="mailto: balasubramanian.s2000@gmail.com"><p className='button'>Hire Me</p></a>
-                  <p id='resume' onClick={onButtonClick}>Resume</p>
+                <div className="buttons">
+                  {/* Hire Me Button */}
+                  <motion.a 
+                    href="mailto:balasubramanian.s2000@gmail.com" 
+                    whileHover={{ scale: 1.1 }} 
+                    whileTap={{ scale: 0.9 }}
+                  >
+                    <motion.p className="button">
+                      Hire Me
+                    </motion.p>
+                  </motion.a>
+
+                  {/* Resume Button */}
+                  <motion.p 
+                    id="resume" 
+                    onClick={onButtonClick} 
+                    className="button"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                  >
+                    Resume
+                  </motion.p>
                 </div>
             </div>
             
@@ -54,22 +74,27 @@ export default function Home() {
                 <h2>Frontend Development</h2>
                 <div id='box'>
                   <article>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>HTML</h3>
                     <span>Intermediate</span>
                   </article>
                   <article>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>CSS</h3>
                     <span>Intermediate</span>
                   </article>
                   <article>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>UI/UX</h3>
                     <span>Basic</span>
                   </article>
+                  <article>
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
+                    <h3>Tailwind CSS</h3>
+                    <span>Basic</span>
+                  </article>
                   <article className='ui'>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>JavaScript</h3>
                     <span>Beginner</span>
                   </article>
@@ -79,28 +104,33 @@ export default function Home() {
                 <h2>Backend Development</h2>
                 <div id='box'>
                 <article>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>NodeJS</h3>
                     <span>Beginner</span>
                   </article>
                   <article>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>ExpressJS</h3>
                     <span>Beginner</span>
                   </article>
                   <article>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>MongoDB</h3>
                     <span>Beginner</span>
                   </article>
                   <article className='ui'>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>Git</h3>
                     <span>Beginner</span>
                   </article>
                   <article className='ui'>
-                    <VerifiedIcon />
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
                     <h3>PHP</h3>
+                    <span>Beginner</span>
+                  </article>
+                  <article className='ui'>
+                    <VerifiedIcon sx={{ color: '#1DA1F2' }}/>
+                    <h3>Neo4j</h3>
                     <span>Beginner</span>
                   </article>
                 </div>
