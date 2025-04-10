@@ -12,6 +12,7 @@ import Education from './Education';
 import Footer from './Footer';
 import Projects from './Projects';
 import { motion } from "framer-motion";
+import AllProjects from './AllProjects';
 
 export default function Home() {
 
@@ -139,6 +140,7 @@ export default function Home() {
         </div>
         <Education />
         <Projects />
+        <AllProjects />
         <Footer />
     </div>
   )

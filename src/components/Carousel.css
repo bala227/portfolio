@@ -1,7 +1,7 @@
 /* Carousel.css */
 .carousel-container {
   border: 3px solid blueviolet;
-  padding: 50px;
+  padding: 40px 0px;
   border-radius: 30px;
   margin: 0 auto;
   overflow: hidden;
@@ -29,7 +29,7 @@
 
 .cimg {
   width: auto;
-  height: 550px; /* Set height manually */
+  height: 450px; /* Set height manually */
   object-fit: contain; /* Maintain aspect ratio */
   border-radius: 20px; /* Optional: round image corners */
 }
@@ -45,6 +45,7 @@
   cursor: pointer;
   z-index: 10;
   border-radius: 30px;
+  font-size: 17px;
 }
 
 .carousel-button.prev {

@@ -17,7 +17,7 @@
   }
   
   .tab-button.active {
-    background-color: blueviolet;
+    background: linear-gradient(90deg, blueviolet, mediumvioletred);
     color: white;
     box-shadow: 0 0 80px 12px blueviolet;
   }

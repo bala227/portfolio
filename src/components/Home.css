@@ -9,15 +9,31 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-.title{
-    font-size: 1.8rem;
+.nav-link {
+    color: white;
+    transition: color 0.7s ease;
 }
-.navbar{
+
+.nav-link.active {
+    color: blueviolet;
+    font-weight: 600;
+    border-bottom: 3px solid blueviolet;
+}
+
+.navbar {
     width: 100%;
-    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(138, 43, 226, 0.15); /* semi-transparent blueviolet */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(138, 43, 226, 0.1); /* soft border */
+    padding: 10px 25px;
 }
+
 .navitems{  
-    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,6 +49,11 @@ body{
     text-decoration: none;
     color: white;
 }
+#Skills,
+#third,
+#fourth {
+  scroll-margin-top: 100px;
+}
 .navitems a:active,
 .navitems a:hover
 {
@@ -40,14 +61,22 @@ body{
 }
 .navitems h1,a:hover{
     cursor: pointer;
-    color:blueviolet;
+    color: blueviolet;
 }
+
+.title {
+    font-size: 1.8rem;
+    background: linear-gradient(90deg, blueviolet, mediumorchid, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .homebody{
-    position: relative;
+   margin-top: 750px;
 }
 .first{
     position: absolute;
-    top: 100px;
+    top: 200px;
     left: 40%;
 }
 .first p{
@@ -122,13 +151,15 @@ a{
     text-align: center; 
     margin-bottom: 100px; 
     border-radius: 20px;
+    transition: all 0.3s ease;
 }
 .skill:hover{
     cursor: pointer;
+    transform: translateY(-5px);
     box-shadow: 0 0 50px 15px blueviolet;
 }
 .second{
-    margin-top: 700px;
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
