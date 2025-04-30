@@ -67,3 +67,37 @@
   box-shadow: inset 0 -2px 0 0 blueviolet;
   transform: translateY(-5px);
 }
+
+@media (max-width: 767px) {
+  .projects-container {
+    padding: 0 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  .projects-grid .project-card:nth-child(n+6) {
+    display: none; /* Hide all items starting from the 6th one */
+  }
+  .projects-grid .project-card:nth-child(5) {
+    grid-column: span 2; /* This makes the 5th card take the full width of the container */
+  }
+  .project-card {
+    padding: 12px;
+    border: 1px solid blueviolet;
+    box-shadow: 0 0 10px 1px blueviolet;
+
+  }
+  .project-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  .project-name{
+    font-size: 14px;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+}

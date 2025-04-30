@@ -61,3 +61,46 @@
   font-size: 20px;
   color: white;
 }
+
+.cimgright{
+  margin-right: 80px;
+}
+
+@media (max-width: 767px) {
+  .carousel-container {
+    padding: 10px 0;
+    border-radius: 20px;
+
+  }
+
+  .cimg {
+    height: 200px; /* Reduced height for smaller screens */
+    width: 100%;
+    max-width: 90%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .carousel-text {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+  .carousel-container:hover{
+    box-shadow: none;
+  }
+  .carousel-button {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .carousel-multi-img {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .carousel-slide {
+    padding: 0 10px;
+  }
+}

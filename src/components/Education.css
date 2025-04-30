@@ -19,11 +19,16 @@
     margin-top: 5px;
     font-size: 20px;
   }
-  #edbox{
-    position:relative;
-    border-left:3px solid white;
-    padding-left:70px;
-    margin-top:50px;
+  #edbox {
+    position: relative;
+    border-left: 3px solid white;
+    padding-left: 70px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  #edu:last-child {
+    margin-bottom: 0;
   }
   #edbox:hover{
     cursor:pointer;
@@ -44,4 +49,35 @@
   #edu:hover #circle{
       background-color:blueviolet;
   }
-  
+
+  #edu span{
+    font-weight: bold;
+    font-size: 23px;
+    vertical-align: middle;
+  display: inline-block;
+  }
+
+  /* Responsive Styles for Mobile */
+@media (max-width: 767px) {
+  #third{
+    margin-top: -20px;
+  }
+  .education {
+    font-size: 2rem;
+  }
+  #edbox{
+    margin-top: 20px;
+    padding-left: 40px;
+    margin-left: 30px;
+    padding-bottom: 0;
+  }
+  #edbox p {
+    font-size: 15px;
+  }
+  #third h2{
+    font-size: 20px;
+  }
+  #edu span{
+    font-size: 18px;
+  }
+}

@@ -40,7 +40,11 @@ const AllProjects = () => {
             rel="noopener noreferrer"
           >
             <h3 className="project-name">{repo.name.toUpperCase()}</h3>
-            <p className='project-link'>Check out {repo.name} on <GitHubIcon style={{fontSize:30,color:"white"}}/> →</p>
+            <p className='project-link'>
+            <span className="hide-on-mobile">Check out {repo.name} on</span>
+            <GitHubIcon style={{ fontSize: 30, color: "white" }} /> →
+          </p>
+
           </a>
         ))}
       </div>

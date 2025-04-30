@@ -186,3 +186,122 @@ a{
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
+/* ------------ Responsive Styles for Mobile ------------ */
+@media (max-width: 767px) {
+
+    * {
+      box-sizing: border-box;
+      
+    }
+    html {
+        overflow-x: hidden;
+      }
+    body {
+      overflow-x: hidden;
+    }
+  
+    .homebody {
+      margin-top: 100px;
+      padding: 0 16px;
+    }
+  
+    .first {
+      position: static;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      padding: 0;
+    }
+    .first-top{
+        display: flex;
+        align-items: center;
+    }
+    .title{
+        margin-left: -40px;
+    }
+    .bala {
+      position: static;
+      width: 140px;
+      height: 130px;
+      margin-left: -20px;
+      border-radius: 100%;
+      margin-bottom: 20px;
+    }
+    .items a{
+        display: none;
+    }
+    .about1 {
+        
+      font-size: 0.8rem;
+      margin: 8px 0;
+    }
+    .red{
+        font-size: 19px;
+    }
+    .about {
+      width: 100%;
+      margin-top: 10px; 
+      text-align: center;
+    }
+    .first p{
+        font-size: 15px;
+        
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+    }
+  
+    .button, #resume {
+      text-align: center;
+    }
+  
+    .second {
+      padding: 0 16px;
+      margin-top: 50px;
+    }
+    .exp{
+        font-size: 22px;
+    }
+    .skills{
+        margin-top: -10px;
+        font-size: 30px;
+    }
+    .skillbox {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skill {
+      width: 100%;
+      padding: 8px;
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px 6px blueviolet;
+    }
+    .skill h2{
+        margin-top: -60px;
+    }
+    #box{
+        padding: 5px;
+    }
+    #box h3,span{
+        font-size: 13px;
+    }
+      
+  }
+  

@@ -22,3 +22,16 @@
     color: #ff6b6b;
     font-weight: bold;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .footer {
+      padding: 10px 0; /* Adjust padding for smaller screens */
+      font-size: 12px; /* Slightly smaller font on mobile */
+    }
+  
+    .footer p {
+      font-size: 12px; /* Ensure text remains readable on mobile */
+      padding: 3px 11px;
+    }
+  }

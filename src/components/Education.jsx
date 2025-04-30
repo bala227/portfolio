@@ -14,7 +14,7 @@ export default function Education() {
                     <h2>Higher Secondary Education</h2>
                     <p>2020 - 2022</p>
                     <p>Rose Mary Matric Hr. Sec. School</p>
-                    <p>Percentage : <span style={{fontSize:23,fontWeight:'bold'}}>96.1 / 100</span></p>
+                    <p>Percentage : <span>96.1 / 100</span></p>
                 </section>
             </div>
             <div id="edu">
@@ -24,7 +24,7 @@ export default function Education() {
                     <p>Computer Science and Engineering (Artificial Intelligence and Machine Learning)</p>
                     <p>2022 - 2026</p>
                     <p>PSG College of Technology</p>
-                    <p>Grade : <span style={{fontSize:23,fontWeight:'bold'}}>8.41 / 10</span></p>
+                    <p>Grade : <span >8.41 / 10</span></p>
                 </section>
             </div>
         </div>

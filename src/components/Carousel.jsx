@@ -27,7 +27,7 @@ const Carousel = ({ images }) => {
             <div className="carousel-multi-img">
               {Array.isArray(img.url) ? (
                 img.url.map((url, i) => (
-                  <img key={i} src={url} alt={`Slide ${index} - Img ${i}`} className="cimg" style={{marginRight:80}}/>
+                  <img key={i} src={url} alt={`Slide ${index} - Img ${i}`} className="cimg cimgright" />
                 ))
               ) : (
                 <img src={img.url} alt={`Slide ${index}`} className="cimg" />
