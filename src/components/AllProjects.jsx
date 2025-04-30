@@ -10,7 +10,7 @@ const AllProjects = () => {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const response = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`);
+        const response = await fetch(`https://api.github.com/users/${username}/starred?per_page=100`);
         if (!response.ok) throw new Error(`GitHub API error: ${response.status}`);
         const data = await response.json();
   
