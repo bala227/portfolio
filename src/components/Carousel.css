@@ -97,10 +97,25 @@
   .carousel-multi-img {
     display: flex;
     justify-content: center;
-    
   }
 
   .carousel-slide {
     padding: 0 10px;
   }
+}
+.carousel-caption-container {
+  width: 1000px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.carousel-caption {
+  font-size: 20px;
+  color: white;
+}
+
+.carousel-description {
+  font-size: 15px;
+  color: white;
+  margin-top: 20px;
 }

@@ -33,7 +33,11 @@ const Carousel = ({ images }) => {
                 <img src={img.url} alt={`Slide ${index}`} className="cimg" />
               )}
             </div>
-            <p className="carousel-text">{img.caption}</p>
+            <div className="carousel-caption-container">
+              <p className="carousel-caption">{img.caption}</p>
+              <p className="carousel-description">{img.description}</p>
+            </div>
+
           </div>
         ))}
       </div>

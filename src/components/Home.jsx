@@ -1,7 +1,6 @@
 import React from "react";
 import "../components/Home.css";
 import skull from "../images/skull.png";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -13,6 +12,7 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import { motion } from "framer-motion";
 import AllProjects from "./AllProjects";
+import Certifications from "./Certifications";
 
 export default function Home() {
   const onButtonClick = () => {
@@ -55,13 +55,6 @@ export default function Home() {
 
           {/* Social Icons */}
           <div className="icons">
-            <a
-              href="https://www.instagram.com/_helixul_/"
-              target="blank"
-              rel="noopener noreferrer"
-            >
-              <InstagramIcon style={{ fontSize: 40, color: "#fd1d1d" }} />
-            </a>
             <a
               href="https://www.linkedin.com/in/bala-subramanian-s-3a95a8261/"
               target="blank"
@@ -179,6 +172,7 @@ export default function Home() {
         </div>
       </div>
       <Education />
+      <Certifications />
       <Projects />
       <AllProjects />
       <Footer />
