@@ -40,7 +40,7 @@ export default function Home() {
             </h3>
             <h3 className="about1">
               <span className="hide-on-mobile">I'm a </span>
-              <span className="red">Full Stack Developer</span>
+              <span className="red">Software Engineer</span>
             </h3>
             </div>
           </div>
@@ -48,8 +48,8 @@ export default function Home() {
           {/* Paragraph below */}
           <p className="about">
             I am a hardworking and diligent individiual, currently pursuing B.E.
-            CSE AIML. I have considerable experience in the Frontend
-            development. I am seeking a challenging role in web development to
+            CSE AIML. I have considerable experience in application
+            development. I am seeking a challenging role to
             kickstart my career in this field.
           </p>
 

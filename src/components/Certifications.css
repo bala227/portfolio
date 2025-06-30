@@ -85,8 +85,13 @@
   cursor: pointer;
 }
 
-#box article {
+#cert-box {
   position: absolute;
-  left: '50%';
   bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
+

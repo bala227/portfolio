@@ -5,6 +5,7 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../components/Certifications.css"; // CSS we'll add below
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 
 export default function Certifications() {
   const certifications = [
@@ -61,6 +62,7 @@ export default function Certifications() {
 
   return (
     <div className="second" id="Certifications">
+      <WorkspacePremiumIcon style={{fontSize:50, marginBottom:10}}/>
       <h1 className="skills">Certifications</h1>
       <div className="cert-slider-container">
         <Slider {...settings}>
@@ -74,7 +76,7 @@ export default function Certifications() {
               >
                 <div className="skill cert-card">
                   <h2>{cert.title}</h2>
-                  <div id="box">
+                  <div id="cert-box">
                     <article>
                       <VerifiedIcon sx={{ color: "#1DA1F2" }}/>
                       <h3>{cert.provider}</h3>
